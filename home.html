@@ -3,181 +3,323 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagina Inicial</title>
-  <link rel="stylesheet" type="text/css" href="home.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"   rel="stylesheet">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/bs/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/cards.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/home-bootstrap.css">
+  <script src="js/jquery-3.2.1.min.js"> </script>
+  <script src="js/bootstrap.min.js"> </script>
 
 
+  <script>
+  function selectArea(area){
+    if(area == 'Hardware'){
+      //alert('hard');
+      $('#softwareArea').show();
+      $('#hardwareArea').hide();
+    }else if(area == 'Software'){
+      $('#softwareArea').hide();
+      $('#hardwareArea').show();
+    }
+  }
+
+  //jquery
+  console.log($);
+  </script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  </style>
 </head>
 <body>
-  <section class="Section">
-    <div class="SectionOpacity">
-      <div class="Navbar">
-        <div class="NavLogo">
+  <div class="Navbar">
+    <div class="Logo">
+      <a href="/"><img src="images/logo.png" alt="Logo Conecta"></a>
+    </div>
+    <div class="nav">
+      <ul class="ul">
+        <li class="li">Sobre</li>
+        <li class="li">Cadastre-se</li>
 
-        </div>
-        <div class="NavLinks">
-          <ul>
-            <li class="Link"><a href="#1">Sobre</a></li>
-            <li class="Link"><a href="#2">Como funciona</a></li>
-            <li class="Link">Login</li>
-          </ul>
-        </div>
+        <li class="li">Login</li>
+      </ul>
+    </div>
+  </div>
 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/carousel/1.png" alt="Img1">
       </div>
-      <div class="BoxText">
+
+      <div class="item">
+        <img src="images/carousel/2.png" alt="Img2">
       </div>
 
-      <div class="BoxSearch">
-        <div class="TitleSearch">
-          Encontre parcerias agora
-        </div>
-
-        <div class="Box">
-
-          <div class="BoxInput">
-            <input type="text" name="input" class="Input" >
-            <div class="Button">Buscar <i class="material-icons u-marginSmall">search</i></div>
-          </div>
-
-
-
-
-        </div>
-        <div class="NavSearch">
-          <div class="Tag">
-            <div class="TagTitle u-coloRed">
-              <i class="material-icons u-fontSizeMedium">desktop_mac</i>
-              <span class="u-fontSizeMedium u-marginSmall">Informática</span>
-            </div>
-            <div class="TagContent">
-              <form>
-                <div>  <input type="checkbox" name="vehicle" value="hardware"> Hardware</div>
-                <div><input type="checkbox" name="vehicle" value="dev"> Desenvolvimento</div>
-                <div>  <input type="checkbox" name="vehicle" value="test" > Teste</div>
-                <div><input type="checkbox" name="vehicle" value="Prototipos" > Prototipos</div>
-                <div><input type="checkbox" name="vehicle" value="Consultoria" > Consultoria</div>
-                <input class="ButtonTag" type="submit" value="Buscar">
-              </form>
-            </div>
-          </div>
-          <div class="Tag">
-            <div class="TagTitle u-coloGreen">
-              <i class="material-icons u-fontSizeMedium">attach_money</i>
-              <span  class="u-fontSizeMedium u-marginSmall">Finanças</span>
-            </div>
-            <div class="TagContent">
-              <form>
-                <div>  <input type="checkbox" name="vehicle" value="hardware"> Hardware</div>
-                <div><input type="checkbox" name="vehicle" value="dev"> Desenvolvimento</div>
-                <div>  <input type="checkbox" name="vehicle" value="test" > Teste</div>
-                <div><input type="checkbox" name="vehicle" value="Prototipos" > Prototipos</div>
-                <div><input type="checkbox" name="vehicle" value="Consultoria" > Consultoria</div>
-                <input class="ButtonTag" type="submit" value="Buscar">
-              </form>
-
-            </div>
-          </div>
-          <div class="Tag">
-            <div class="TagTitle u-coloOrange">
-              <i class="material-icons u-fontSizeMedium">import_contacts</i>
-              <span class="u-fontSizeMedium u-marginSmall">Educação</span>
-            </div>
-            <div class="TagContent">
-              <form>
-                <div>  <input type="checkbox" name="vehicle" value="hardware"> Hardware</div>
-                <div><input type="checkbox" name="vehicle" value="dev"> Desenvolvimento</div>
-                <div>  <input type="checkbox" name="vehicle" value="test" > Teste</div>
-                <div><input type="checkbox" name="vehicle" value="Prototipos" > Prototipos</div>
-                <div><input type="checkbox" name="vehicle" value="Consultoria" > Consultoria</div>
-                <input class="ButtonTag" type="submit" value="Buscar">
-              </form>
-            </div>
-          </div>
-          <div class="Tag">
-            <div class="TagTitle u-coloBlue">
-              <i class="material-icons u-fontSizeMedium">videocam</i>
-              <span class="u-fontSizeMedium u-marginSmall">Comunicação</span>
-            </div>
-            <div class="TagContent">
-              <form>
-                <div>  <input type="checkbox" name="vehicle" value="hardware"> Hardware</div>
-                <div><input type="checkbox" name="vehicle" value="dev"> Desenvolvimento</div>
-                <div>  <input type="checkbox" name="vehicle" value="test" > Teste</div>
-                <div><input type="checkbox" name="vehicle" value="Prototipos" > Prototipos</div>
-                <div><input type="checkbox" name="vehicle" value="Consultoria" > Consultoria</div>
-                <input class="ButtonTag" type="submit" value="Buscar">
-              </form>
-            </div>
-          </div>
-        </div>
-
+      <div class="item">
+        <img src="images/carousel/3.png" alt="Img3">
       </div>
+
 
     </div>
 
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+
+
+  <script>
+  //jquery
+  console.log($);
+  </script>
+</head>
+
+<!-- BUSCA AVANÇADA -->
+<div class="BoxSearch">
+  <div class="TitleSearch">Encontre parcerias agora</div>
+
+  <div class="Search">
+    <input type="text"  placeholder="  Digite aqui palavras chave. Ex.: 'desenvolvimento, testes'" class="Input"/>
+
+    <div class="BoxButton">
+      <a href="cards.html"><div class="Button">Buscar</div></a>
+    </div>
+  </div>
+</div>
+
+
+<!-- PRIMEIRA TABLE -->
+
+<div class="container">
+  <div class="pricing-table pricing-three-column row">
+    <div class="ti-class">
+
+      <div class="plan col-sm-4 col-lg-12">
+        <div class="plan-name-bronze2">
+          <span class="nomes-areas">
+            Tecnologia da Informação e Comunicação
+          </span>
+        </div>
+        <div class="btn btn-primary btn-plan-select" onclick="selectArea('Hardware')"><i class="icon-white icon-ok"></i> Hardware</div>
+        <div class="btn btn-primary btn-plan-select" onclick="selectArea('Software')"><i class="icon-white icon-ok"></i> Software</div>
+        <div class="btn btn-primary btn-plan-select"><i class="icon-white icon-ok"></i> Administração</div>
+        <div class="btn btn-primary btn-plan-select"><i class="icon-white icon-ok"></i> Serviços</div>
+        <div class="btn btn-primary btn-plan-select"><i class="icon-white icon-ok"></i> Comercial</div>
+
+
+        <!-- <div class="" hidden=""> -->
+        <!-- SOFTWARE -->
+        <div class="row" id="softwareArea">
+          <div class="col-md-6">
+
+            <div class="comp">
+              Manufatura
+            </div>
+
+            <div class="comp">
+              Outsourcing
+            </div>
+
+            <div class="comp">
+              Robôs
+            </div>
+
+            <div class="comp">
+              Escalabilidade
+            </div>
+
+            <div class="comp">
+              Automação industrial
+            </div>
+
+          </div>
+          <div class="col-md-6">
+
+
+            <div class="comp">
+              Protótipos
+            </div>
+
+            <div class="comp">
+              Infraestrutura
+            </div>
+
+            <div class="comp">
+              Integração
+            </div>
+
+            <div class="comp">
+              Qualidade
+            </div>
+
+            <div class="comp">
+              Certificação
+            </div>
+
+          </div>
+
+        </div>
+        <!-- FIM SOFTWARE -->
+
+        <!-- Inicio Hardware -->
+
+        <div class="row" id="hardwareArea" style="display: none;">
+          <div class="col-md-6">
+
+            <div class="comp">
+              Desenvolvimento SW Client Server
+            </div>
+
+            <div class="comp">
+              Desenvolvimento SW Mobile
+            </div>
+
+            <div class="comp">
+              Desenvolvimento SW Web
+            </div>
+
+            <div class="comp">
+              Modelagem de Processo de SW
+            </div>
+
+            <div class="comp">
+              Engenharia de Requisitos
+            </div>
+
+          </div>
+          <div class="col-md-6">
+
+
+            <div class="comp">
+              Gerenciamento de Requisitos
+            </div>
+
+            <div class="comp">
+              Verificação, Validação e Teste de Software
+            </div>
+
+            <div class="comp">
+              Escalabilidade de SW
+            </div>
+
+            <div class="comp">
+              Reuso de Software
+            </div>
+
+            <div class="comp">
+              Prototipagem de SW
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- SUB-ÁREAS, POR ENQUANTO SEM... -->
+<!--
+    <div class="plan col-sm-4 col-lg-3">
+      <div class="plan-name-bronze">
+        <div class="nomes-areas">
+          Ciências da Vida
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+    </div>
+
+    <div class="plan col-sm-4 col-lg-3">
+      <div class="plan-name-bronze">
+        <div class="nomes-areas">
+          Meio Ambiente
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+    </div>
+
+    <div class="plan col-sm-4 col-lg-3">
+      <div class="plan-name-bronze">
+        <div class="nomes-areas">
+          Energia
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+    </div>
+
+    <div class="plan col-sm-4 col-lg-3">
+      <div class="plan-name-bronze">
+        <div class="nomes-areas">
+          Industria Criativa
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+      <a href="#" class="btn btn-primary btn-plan-select2"><i class="icon-white icon-ok"></i> Select</a>
+    </div> -->
+
+
+
+  </div>
+</div>
+
+<!-- FIM PRIMEIRA TABLE -->
+
+<!-- FIM BUSCA AVANÇADA -->
+
+
+
+
+
+<!-- DEPOIMENTOS -->
+<div class="BoxComents"> <div class="TitleComents">Depoimentos</div>
+<div class="Coment">
+  <div class="Persona">
+    <img src="images/leonardo_iglesias.jpg" class="DivAvatar"alt="Cara do Leco">
+    <div class="DivContent">
+      Leco Iglesias<br><br>
+      "Formamos diversas parcerias através do Conecta, agilizando processos que antes eram lentos e desgastantes."
+    </div>
+  </div>
+  <div class="Persona">
+    <div class="DivContent toTheRight">
+      Rafa Weiblen<br><br>
+      "Com a plataforma encontrei ótimos fornecedores dentro do TecnoPuc. Antes, precisávamos fazer essa busca fora do estado."
+    </div>
+    <img src="images/rafael_weiblen.jpg" class="DivAvatar"alt="Cara do Leco">
+  </div>
+</div>
+</div>
+<!-- FIM DEPOIMENTOS -->
 
 </section>
-<section class="Function" id="2">
-  <div class="FunctionTitle">
-    Como funciona
 
-  </div>
-  <div class="FunctionContent">
-    <div class="BoxFunction u-coloRed">
-      <div class="BoxIcon">
-        <i class="material-icons" style="font-size: 4em;">insert_drive_file</i>
-      </div>
-      <div class="BoxText">
-        Você cadastra sua empresa
-
-      </div>
-    </div>
-    <div class="BoxFunction u-coloGreen">
-      <div class="BoxIcon">
-        <i class="material-icons" style="font-size: 4em;">build</i>
-      </div>
-      <div class="BoxText">
-        Procura recursos ou serviços
-
-      </div>
-    </div>
-    <div class="BoxFunction u-coloOrange">
-      <div class="BoxIcon">
-        <i class="material-icons" style="font-size: 4em;">business</i>
-      </div>
-      <div class="BoxText">
-        Encontra empresas fornecedoras
-
-      </div>
-    </div>
-    <div class="BoxFunction u-coloBlue">
-      <div class="BoxIcon">
-        <i class="material-icons" style="font-size: 4em;">contact_mail</i>
-      </div>
-      <div class="BoxText">
-        O conecta contata esssa empresa para você
-
-      </div>
-    </div>
-
-  </div>
-
-
-</section>
-
-<section class="About" id="1">
-  <div class="AboutTitle">
-    Sobre
-
-  </div>
-  <div class="AboutText">
-    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
-  </div>
-
-</section>
 
 </body>
 </html>

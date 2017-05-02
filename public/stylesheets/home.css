@@ -165,9 +165,6 @@ ul li a{
 	float: right;
 	border: none;
 	color: white;
-	text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
-	font-size: 0.8em;
 }
 .Box{
 	width: 60%;
@@ -182,13 +179,6 @@ ul li a{
 	width: 18.7%;
 	height: 95%;
 	background-color: #3D8EB9;
-	text-transform: uppercase;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-size: 1rem;
 }
 .Tag:hover .TagContent {
 	visibility: visible;
