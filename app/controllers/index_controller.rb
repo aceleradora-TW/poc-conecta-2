@@ -11,13 +11,13 @@ get '/az' do
 end
 
 get '/za' do
-  erb :cards
+  erb :za
 end
 
 get '/porte' do
-  erb :cards
+  erb :porte
 end
 
 get '/avaliacao' do
-  erb :cards
+  erb :avaliacao
 end
