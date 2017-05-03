@@ -217,3 +217,7 @@ li{
 	margin: 20px 0px 20px 436px !important;
 	border-radius: 4px;
 }
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+}
