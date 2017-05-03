@@ -1,0 +1,50 @@
+.Navbar{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+
+}
+.NavLogo{
+	width: 50%;
+	height: 100%;
+}
+.NavLinks{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	list-style: none;
+	align-items: center;
+	padding-right: 10%;
+	list-style: none;
+	align-items: center;
+	color:  #34495e;
+}
+.Link{
+	width: 24%;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: white;
+}
+.Link:hover{
+	background-color: rgba(0,0,0,0.3);
+  text-decoration: none;
+  color: #34495e;
+}
+.Link:hover a{
+	background-color: rgba(0,0,0,0.6);
+
+
+}
+.NavLinks a{
+	text-decoration: none;
+	color: #34495e;
+}

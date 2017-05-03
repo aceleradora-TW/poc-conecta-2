@@ -77,8 +77,10 @@
 	flex-direction: row;
 	list-style: none;
 	align-items: center;
-	color: white;
 	padding-right: 10%;
+	list-style: none;
+	align-items: center;
+	color: white;
 }
 .Link{
 	width: 24%;
@@ -86,24 +88,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-decoration: none;
+	color: white;
 }
 .Link:hover{
 	background-color: rgba(0,0,0,0.6);
 }
-ul{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: row;
-	list-style: none;
-	align-items: center;
-	color: white;
-}
-ul li a{
+.NavLinks a{
 	text-decoration: none;
 	color: white;
 }
+
+
 
 
 .BoxText{
