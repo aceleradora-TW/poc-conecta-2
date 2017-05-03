@@ -5,11 +5,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheets/cards.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/modal.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conecta | Resultado da Busca</title>
 </head>
 <body>
+  <div class="my-modal" id="myModal">
+    <div class="modal-content">
+      <span class="btn-close">&times;</span>
+      <h2>Solicitação enviada com sucesso!</h2>
+      <p>A empresa entrará em contato com você.</p>
+    </div>
+  </div>
   <div class="Navbar">
     <div class="NavLogo">
 
@@ -83,7 +91,7 @@
             </div>
           </div>
           <div class="CardFooter">
-            <button data-toggle="tooltip" title="Envia uma mensagem à empresa requerindo uma parceria! " class="magic-button" id="magic-button-1" onclick="change">Enviar solicitação</button><br>
+            <button data-toggle="tooltip" title="Envia uma mensagem à empresa requerindo uma parceria! " class="magic-button" id="magic-button-1" onclick="">Enviar solicitação</button><br>
 
             <span class="success-message" id="success-message-1"><i class="glyphicon glyphicon-ok"></i> Solicitação enviada!</span>
           </div>
@@ -242,4 +250,5 @@
 
 </body>
 <script src="js/index.js"></script>
+<script src="js/modal.js"></script>
 </html>
