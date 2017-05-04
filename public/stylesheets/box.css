@@ -1,0 +1,193 @@
+.box{
+	left: 50%;
+	height: 720px;
+	width: 405px;
+	position: absolute;
+	margin-left: -360px;
+	background-color: white;
+}
+.TextExplanation{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	flex-direction: column;
+	line-height: 2em;
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+.LogosCredibility{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.BoxText{
+	height: 30%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.BoxSearch{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.7);
+	flex-direction: column;
+	align-items: center;
+
+}
+.NavSearch{
+	width: 60%;
+	height: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.Tag{
+	width: 24.5%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.TagTitle{
+	width: 100%;
+	height: 25%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato', sans-serif;
+
+}
+.TagContent{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-direction: column;
+	background-color: #f9f9f9;
+	color: black;
+	visibility: hidden;
+	height: 75%;
+	width: 100%;
+	background-color: white;
+}
+.Box{
+	width: 60%;
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px;
+}
+
+.Tag:hover .TagContent {
+	visibility: visible;
+}
+.TitleSearch{
+	width: 60%;
+	height: 10%;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 1.7em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.BoxInput{
+	height: 95%;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.Input{
+	height: 89%;
+	width: 80%;
+	background-color: white;
+	border: none;
+}
+.FunctionTitle{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+
+}
+.FunctionContent{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.BoxFunction{
+	height: 45%;
+	width: 20%;
+	border-radius: 4%;
+}
+.BoxIcon{
+	height: 40%;
+	width: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.BoxText{
+	height: 60%;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.7em;
+	text-align: center;
+	color: white;
+}
+.AboutTitle{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+}
+.AboutText{
+	width: 60%;
+	height: 80%;
+	display: flex;
+	align-self: center;
+	text-align: justify;
+	line-height: 1.7em;
+	font-size: 1.3em;
+	font-family: 'Lato', sans-serif;
+}
+.BoxCards{
+	width: 100%;
+	height: 93%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
