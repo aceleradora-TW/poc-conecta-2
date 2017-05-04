@@ -190,6 +190,7 @@ li{
 
 
 .stars {
+	float: right;
 	display: flex;
 	flex-direction: row-reverse;
 	margin: 10px;

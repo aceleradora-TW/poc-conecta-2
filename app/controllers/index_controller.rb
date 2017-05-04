@@ -2,10 +2,6 @@ get '/' do
   erb :home
 end
 
-get '/search' do
-  erb :avaliacao
-end
-
 get '/az' do
   erb :az
 end
