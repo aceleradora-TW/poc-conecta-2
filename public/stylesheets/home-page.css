@@ -1,18 +1,21 @@
 .Section{
 	display: flex;
+	flex-direction: column;
 	width: 100;
-	height: 110vh;
-	background-image: url("https://static1.squarespace.com/static/55555e9be4b0cc5c1ed72f84/t/556f8657e4b0ad976216e5e7/1433372247762/business-banner.jpg?format=1500w");
+	min-height: 110vh;
+	/*background-image: url("https://static1.squarespace.com/static/55555e9be4b0cc5c1ed72f84/t/556f8657e4b0ad976216e5e7/1433372247762/business-banner.jpg?format=1500w");*/
+	background-image: url("http://www.speckygeek.com/uploads/cache/2017/03/Business-Web-Design-Office-800x400.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 
 }
 .SectionOpacity{
-
 	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.6);
+	height: 100vh;
+	background-color: rgba(0,0,0,0.7);
 	display: flex;
 	flex-direction: column;
+
 }
 
 #Opacity{
@@ -237,15 +240,24 @@
 	height: 95%;
 	background-color: #3D8EB9;
 	color: #fff;
-	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	border-radius: 1px;
+	font-size: 1.2em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 }
 .Button:hover{
-	box-shadow: 1px 1px 2px 2px #6BB9F0;
-
+	box-shadow: 1px 1px 1px 1px #6BB9F0;
+	cursor: pointer;
+}
+.Button a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .Tag:hover .TagContent {
 	visibility: visible;
@@ -286,9 +298,11 @@
 }
 .u-coloRed{
 	background-color: #EB6361;
+
 }
 .u-coloRed:hover{
 	box-shadow: 1px 1px 2px 2px #E26A6A;
+	cursor: pointer;
 }
 .u-coloGreen{
 	/*background-color: #64DDBB;*/
@@ -296,12 +310,14 @@
 }
 .u-coloGreen:hover{
 	box-shadow: 1px 1px 2px 2px #36D7B7;
+	cursor: pointer;
 }
 .u-coloBlue{
-	background-color: #3D8EB9;
+	background-color: #0faac3;
 }
 .u-coloBlue:hover{
 	box-shadow: 1px 1px 2px 2px #6BB9F0;
+	cursor: pointer;
 }
 
 .u-coloOrange{
@@ -309,12 +325,14 @@
 	}
 .u-coloOrange:hover{
 	box-shadow: 1px 1px 2px 2px #F4B350;
+	cursor: pointer;
 }
+
 .Function{
 	display: flex;
 	width: 100%;
-	height: 100vh;
-	background-color: #ecf0f1;
+	height: 95vh;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8),rgba(0,0,0,0.9) );
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -325,6 +343,7 @@
 	width: 100%;
 	height: 30%;
 	display: flex;
+	color: white;
 	justify-content: center;
 	align-items: center;
 	font-size: 2em;
@@ -339,14 +358,16 @@
 	align-items: flex-start;
 }
 .BoxFunction{
-	height: 50%;
-	width: 23%;
+
+	height: 45%;
+	width: 20%;
+	border-radius: 4%;
+
 
 }
 .BoxIcon{
 	height: 40%;
 	width: 100%;
-
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -362,7 +383,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2em;
+	font-size: 1.7em;
 	text-align: center;
 	color: white;
 }
