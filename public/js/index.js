@@ -1,6 +1,23 @@
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-});
+// $(document).ready(function(){
+//
+//   function showCards(inputSort){
+//     console.log("TO NA FUNCTION");
+//     if(inputSort == 'avaliacao'){
+//       var divList = $(".listaCard");
+//
+//       console.log("TO NO IF");
+//       divList.sort(function(a, b){
+//         console.log("TO NO SORT");
+//         var contentA = parseInt( $(a).attr('star'));
+//         var contentB = parseInt( $(b).attr('star'));
+//
+//         return contentA - contentB;
+//       });
+//       $('.BoxCards').html(divList);
+//     }
+//
+//   }
+// });
 
 $('#magic-button-1').click(function(){
   $('#magic-button-1').fadeOut(0);

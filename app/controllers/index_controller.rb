@@ -3,7 +3,7 @@ get '/' do
 end
 
 get '/search' do
-  erb :avaliacao
+  erb :cards
 end
 
 get '/az' do
