@@ -6,7 +6,16 @@
 	float: right;
 	border: none;
 	color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.ButtonTag a{
+  color: white;
+  text-decoration: none;
+}
+
 .Button{
 	width: 18.7%;
 	height: 95%;
