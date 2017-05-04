@@ -71,9 +71,9 @@
 }
 .CardFooter{
 	width: 100%;
-	height: 20%;
+	height: 25%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 
 }
@@ -96,7 +96,7 @@
 
 .LineDescription{
 	width: 98%;
-	height: 50%;
+	height: 35%;
 	display: flex;
 	flex-direction: column;
 	border-radius: 7px;
@@ -128,11 +128,11 @@
 
 
 }
-.TextCard{
+/*.TextCard{
 	text-align: center;
 	width: 70%;
 	height: 100%;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
 	align-items: center;
 	line-height: 1.5em;
@@ -140,6 +140,23 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: white;
 
+}*/
+
+
+
+
+.TextCard {
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    margin-top: 50px;
 }
 .List{
 	width: 32%;
