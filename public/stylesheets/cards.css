@@ -111,6 +111,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 19px !important;
 }
 .LineList{
 	width: 100%;
@@ -129,16 +130,16 @@
 
 }
 /*.TextCard{
-	text-align: center;
-	width: 70%;
-	height: 100%;
-	/*display: flex;
-	justify-content: center;
-	align-items: center;
-	line-height: 1.5em;
-	font-size: 0.9em;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: white;
+text-align: center;
+width: 70%;
+height: 100%;
+/*display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.5em;
+font-size: 0.9em;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color: white;
 
 }*/
 
@@ -146,17 +147,17 @@
 
 
 .TextCard {
-    text-align: center;
-    width: 70%;
-    height: 100%;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5em;
-    font-size: 0.9em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: white;
-    margin-top: 50px;
+	text-align: center;
+	width: 70%;
+	height: 100%;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5em;
+	font-size: 0.9em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: white;
+	margin-top: 50px;
 }
 .List{
 	width: 32%;
@@ -237,5 +238,5 @@ li{
 }
 
 .show-on-hover:hover > ul.dropdown-menu {
-    display: block;
+	display: block;
 }
