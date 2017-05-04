@@ -1,0 +1,33 @@
+.ButtonTag{
+	width: 40%;
+	height: 25px;
+	background-color: #3D8EB9;
+	margin: 15px;
+	float: right;
+	border: none;
+	color: white;
+}
+.Button{
+	width: 18.7%;
+	height: 95%;
+	background-color: #3D8EB9;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	border-radius: 2px;
+	font-size: 1.2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.Button:hover{
+	box-shadow: 1px 1px 1px 1px #6BB9F0;
+	cursor: pointer;
+}
+.Button a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
