@@ -10,10 +10,6 @@ get '/za' do
   erb :za
 end
 
-get '/porte' do
-  erb :porte
-end
-
 get '/avaliacao' do
   erb :avaliacao
 end
