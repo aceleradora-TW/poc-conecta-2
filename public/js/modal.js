@@ -9,6 +9,8 @@ var btn1 = document.getElementsByClassName("magic-button")[0];
 var btn2 = document.getElementsByClassName("magic-button")[1];
 var btn3 = document.getElementsByClassName("magic-button")[2];
 var btn4 = document.getElementsByClassName("magic-button")[3];
+
+
 var span = document.getElementsByClassName("btn-close")[0];
 
 btn1.onclick = function() {

@@ -194,7 +194,7 @@ li{
 /* BOTAO MAGICO DA GURIZADA */
 
 .magic-button {
-
+/*
 	background-color: #3D8EB9;
 	border: 2px solid gray;
 	border-radius: 4px;
@@ -205,6 +205,10 @@ li{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 5px;*/
+
+
+
 }
 
 .magic-button:hover {
