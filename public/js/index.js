@@ -29,20 +29,20 @@ $(document).ready(function(){
 
 $('#magic-button-modal1').click(function(){
   $('#magic-button-modal1').fadeOut(0);
-  $('#success-message-modal1').fadeIn(3000);
+  $('#success-message-modal1').fadeIn(1000);
 });
 
 $('#magic-button-modal2').click(function(){
   $('#magic-button-modal2').fadeOut(0);
-  $('#success-message-modal2').fadeIn(3000);
+  $('#success-message-modal2').fadeIn(1000);
 });
 
 $('#magic-button-modal3').click(function(){
   $('#magic-button-modal3').fadeOut(0);
-  $('#success-message-modal3').fadeIn(3000);
+  $('#success-message-modal3').fadeIn(1000);
 });
 
 $('#magic-button-modal4').click(function(){
   $('#magic-button-modal4').fadeOut(0);
-  $('#success-message-modal4').fadeIn(3000);
+  $('#success-message-modal4').fadeIn(1000);
 });
