@@ -105,6 +105,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-shadow: 1px 1px #000;
 }
 .BoxInput{
 	height: 95%;
@@ -140,7 +141,7 @@
 	align-items: flex-start;
 }
 .BoxFunction{
-	height: 45%;
+	height: 50%;
 	width: 20%;
 	border-radius: 4%;
 }
@@ -172,14 +173,17 @@
 	align-items: center;
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
+	color: white;
 }
 .AboutText{
 	width: 60%;
 	height: 80%;
 	display: flex;
 	align-self: center;
+	flex-direction: column;
 	text-align: justify;
 	line-height: 1.7em;
 	font-size: 1.3em;
 	font-family: 'Lato', sans-serif;
+	color: white;
 }
