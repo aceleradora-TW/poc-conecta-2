@@ -17,7 +17,7 @@
 	text-shadow: 1px 1px #000;
 	flex-direction: column;
 	line-height: 2em;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: lighter;
 }
 .LogosCredibility{
@@ -68,6 +68,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: row;
 	font-family: 'Lato', sans-serif;
 
 }
@@ -107,6 +108,20 @@
 	justify-content: center;
 	text-shadow: 1px 1px #000;
 }
+.BoxTextTitle{
+	height: 100%;
+	width: 85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.BoxDown{
+	height: 100%;
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .BoxInput{
 	height: 95%;
 	width: 100%;
@@ -121,6 +136,11 @@
 	width: 80%;
 	background-color: white;
 	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 2%;
+	font-size: 1.2em;
 }
 .FunctionTitle{
 	width: 100%;
