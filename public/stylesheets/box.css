@@ -131,6 +131,7 @@
 	align-items: center;
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
+	text-shadow: 1px 1px #000;
 
 }
 .FunctionContent{
@@ -173,7 +174,9 @@
 	align-items: center;
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-	color: white;
+	color:black;
+	text-shadow: 1px 1px #000;
+
 }
 .AboutText{
 	width: 60%;
@@ -185,5 +188,12 @@
 	line-height: 1.7em;
 	font-size: 1.3em;
 	font-family: 'Lato', sans-serif;
-	color: white;
+	color: black;
+}
+.CheckBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 5px;
 }
