@@ -47,3 +47,17 @@
 	box-shadow: 1px 1px 2px 2px #F4B350;
 	cursor: pointer;
 }
+
+.u-coloRed1{
+	background-color: #EB6361;
+}
+.u-coloGreen1{
+	/*background-color: #64DDBB;*/
+	background-color: #02af7e;
+}
+.u-coloBlue1{
+	background-color: #0faac3;
+}
+.u-coloOrange1{
+	background-color: #EB9532;
+}
