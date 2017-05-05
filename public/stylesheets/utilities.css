@@ -13,6 +13,12 @@
 .u-marginSmall{
 	margin: 6px;
 }
+.u-marginLeft{
+	margin-left: 10%;
+}
+.u-marginRight{
+	margin-right: 0.1%;
+}
 
 .u-buttonColor{
   background-color: #3D8EB9;
