@@ -1,5 +1,12 @@
+.u-fontSizeSmall{
+	font-size: 1em;
+}
+
 .u-fontSizeMedium{
 	font-size: 1.3em;
+}
+.u-fontSizeLarge{
+	font-size: 1.7em;
 }
 .u-fontSizeXLarge{
 	font-size: 5em;
