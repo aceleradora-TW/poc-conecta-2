@@ -9,7 +9,7 @@
 	font-weight: lighter;
 }
 .NavLogo{
-	width: 50%;
+	width: 40%;
 	height: 100%;
 	font-family: 'Lobster', cursive;
 	font-size: 4em;
@@ -24,7 +24,7 @@
 	color: #3D8EB9;
 }
 .NavLinks{
-	width: 50%;
+	width: 60%;
 	height: 100%;
 	display: flex;
 	justify-content: flex-end;
