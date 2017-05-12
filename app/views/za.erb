@@ -13,6 +13,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conecta | Resultado da Busca</title>
+
+  <script>
+  function apagarModal(){
+    $("#mensagemModal").html("");
+    $("#mensagemModal").val("");
+    $("#mensagemModal").focus();
+  }
+  </script>
+
 </head>
 
 <body>
@@ -24,7 +33,10 @@
       <div class="LineDescription">
         <center><p class="pa">Escreva sua mensagem no campo abaixo<br>
           (essa empresa costuma responder em até 2 dias).<br></p>
-          <textarea autofocus onfocus="this.innerHTML = this.innerHTML;">Tenho interesse em realizar uma parceria com sua empresa, devido as competências que possui.</textarea>
+
+          <textarea autofocus onfocus="this.innerHTML = this.innerHTML;" id="mensagemModal">Tenho interesse em realizar uma parceria com sua empresa, devido as competências que possui.</textarea>
+          <button class="magic-button-modal1 botaoLimpa" type="button" name="button" onclick="apagarModal()">Limpar</button>
+
         </center>
       </div>
 
