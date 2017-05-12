@@ -20,6 +20,20 @@
     $("#mensagemModal").val("");
     $("#mensagemModal").focus();
   }
+  $(document).ready(function(){
+      var sPageURL = decodeURIComponent(window.location.search.substring(1))
+      var res = sPageURL.split('=');
+      $('#searchTerm').html(res[1]);
+      var avLink = "avaliacao?" + sPageURL;
+      var azLink = "az?" + sPageURL;
+      var zaLink = "za?" + sPageURL;
+
+      $("#avLink").attr('href', avLink);
+      $("#az").attr('href', azLink);
+      $("#za").attr('href', zaLink);
+    });
+
+
   </script>
 
 </head>
@@ -71,11 +85,13 @@
 
     </div>
     <section class="SectionCards">
-      <div class="Text">
-        Resultados para a sua busca
-      </div>
+      <div class="Text" style="font-size: 25px">
 
+        Resultados para a sua busca<br>
+      </div>
+      <div id="searchTerm" class="TextResult" style="font-size: 22px; font-weight: bold;"></div>
       <br>
+
 
       <!-- INICIO Dropdown bootsnipp -->
 
@@ -88,9 +104,9 @@
             A-Z <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="/avaliacao">Avaliações</a></li>
-            <li><a href="/az">A-Z</a></li>
-            <li><a href="/za">Z-A</a></li>
+            <li><a id="avLink">Avaliações</a></li>
+            <li><a id="az">A-Z</a></li>
+            <li><a id="za">Z-A</a></li>
           </ul>
         </div>
 
