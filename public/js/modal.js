@@ -31,10 +31,14 @@ btn4.onclick = function() {
 
 span.onclick = function() {
   modal.style.display = "none";
+  $('#success-message-modal1').fadeOut(0);
+  $('#magic-button-modal1').fadeIn(0);
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
+    $('#success-message-modal1').fadeOut(0);
+    $('#magic-button-modal1').fadeIn(0);
     modal.style.display = "none";
   }
 }
