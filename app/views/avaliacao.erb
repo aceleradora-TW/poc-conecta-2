@@ -16,31 +16,13 @@
   <title>Conecta | Resultado da Busca</title>
 
 
-
-
+<!-- script do botão que limpa o text area da modal, é I-M-P-O-R-T-A-N-T-E, não apaguem!!!!!!!!!! -->
   <script>
-// \script do botão que limpa o text area da modal, é I-M-P-O-R-T-A-N-T-E, não apaguem!!!!!!!!!!
   function apagarModal(){
     $("#mensagemModal").html("");
     $("#mensagemModal").val("");
     $("#mensagemModal").focus();
   }
-
-// pega o que a pessoa escreveu na home e joga aqui
-
-  $(document).ready(function(){
-      var sPageURL = decodeURIComponent(window.location.search.substring(1))
-      var res = sPageURL.split('=');
-      $('#searchTerm').html(res[1]);
-      var avLink = "avaliacao?" + sPageURL;
-      var azLink = "az?" + sPageURL;
-      var zaLink = "za?" + sPageURL;
-
-      $("#avLink").attr('href', avLink);
-      $("#az").attr('href', azLink);
-      $("#za").attr('href', zaLink);
-    });
-
   </script>
 </head>
 
@@ -85,7 +67,7 @@
 
         <a  class="Link" href="/#1">Sobre</a>
         <a class="Link" href="/#2">Como funciona</a>
-        <a class="Link" href="/#">Logado</a>
+        <a class="Link" href="/#">Login</a>
 
       </div>
 
@@ -93,10 +75,8 @@
 
     <section class="SectionCards">
       <div class="Text" style="font-size: 25px">
-
-        Resultados para a sua busca<br>
+        Resultados para a sua busca
       </div>
-      <div id="searchTerm" class="TextResult" style="font-size: 22px; font-weight: bold;"></div>
       <br>
 
       <!-- INICIO Dropdown bootsnipp -->
@@ -110,9 +90,9 @@
             Avaliações <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" role="menu">
-            <li><a id="avLink">Avaliações</a></li>
-            <li><a id="az">A-Z</a></li>
-            <li><a id="za">Z-A</a></li>
+            <li><a href="/avaliacao">Avaliações</a></li>
+            <li><a href="/az">A-Z</a></li>
+            <li><a href="/za">Z-A</a></li>
           </ul>
         </div>
 
@@ -499,7 +479,7 @@
                       </div>
                     </div>
                     <div class="LineDescription">
-                      
+
                       <div class="TitleDescription" style="margin-bottom: 5px">Demais competências
 
 

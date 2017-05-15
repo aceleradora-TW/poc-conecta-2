@@ -13,26 +13,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"   rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-<script>
-// \o que a pessoa busca fica nos cards, é I-M-P-O-R-T-A-N-T-E, não apaguem!!!!!!!!!!
 
-$(document).ready(function() {
-  $("#searchInput").keyup(function(event){
-    if(event.keyCode == 13){
-       $("#searchLink").click();
-     }
-  });
-})
-
-  function goSearch(){
-    var param = $('#searchInput').val();
-    url  = "/avaliacao?q=" + param;
-    window.location = url;
-  }
-
-</script>
 
 </head>
 <body>
@@ -72,8 +54,8 @@ $(document).ready(function() {
         <div class="Box">
 
           <div class="BoxInput">
-            <input id="searchInput" type="text" name="input" class="Input" placeholder="Ex.: Desenvolvimento, investimentos, marketing..." >
-            <div class="Button u-marginRight"><a id="searchLink" onclick="goSearch()">Buscar<i class="material-icons u-marginSmall">search</i></a></div>
+            <input type="text" name="input" class="Input" placeholder="Ex.: Desenvolvimento, investimentos, marketing..." >
+            <div class="Button u-marginRight"><a href="/avaliacao">Buscar<i class="material-icons u-marginSmall">search</i></a></div>
           </div>
         </div>
         <div class="TitleSearch u-marginSmall u-fontSizeMedium">
