@@ -262,3 +262,7 @@ li{
 .show-on-hover:hover > ul.dropdown-menu {
 	display: block;
 }
+
+.TextResult{
+	font-size: 306px;
+}
